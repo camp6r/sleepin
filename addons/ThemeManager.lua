@@ -42,7 +42,7 @@ local ThemeManager = {} do
 		self.Library.MainColor = Color3.new(0, 0, 0)
 		self.Library.AccentColor = Color3.new(20, 20, 20)
 		self.Library.BackgroundColor = Options.BackgroundColor.Value
-		self.Library.OutlineColor = Options.OutlineColor.Value
+		self.Library.OutlineColor = Color3.new(170, 141, 196)
 
 		self.Library.AccentColorDark = self.Library:GetDarkerColor(self.Library.AccentColor);
 		self.Library:UpdateColorsUsingRegistry()
